@@ -9,7 +9,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client otherwise it will send NACK signal to client.
 6. Stop the program
-
+<br>
 ## PROGRAM :
 ```
 import socket
@@ -28,6 +28,7 @@ def upload_file(host, port, filename):
         request = f"POST /upload HTTP/1.1\r\nHost: {host}\r\nContent-Length:{content_length}\r\n\r\n{file_data.decode()}"
         response = send_request(host, port, request)
     return response
+
 
 def download_file(host, port, filename):
     request = f"GET /{filename} HTTP/1.1\r\nHost: {host}\r\n\r\n"
