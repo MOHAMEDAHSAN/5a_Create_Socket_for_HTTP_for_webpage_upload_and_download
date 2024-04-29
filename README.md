@@ -9,7 +9,9 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client otherwise it will send NACK signal to client.
 6. Stop the program
-<br>
+
+<BR>
+
 ## PROGRAM :
 ```
 import socket
