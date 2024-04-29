@@ -1,6 +1,4 @@
 # EXP : 5 - CREATE SOCKET FOR HTTP FOR WEBPAGE UPLOAD AND DOWNLOAD
-## NAME : S MOHAMED AHSAN
-## REG NO : 212223240089
 ## AIM :
 To write a PYTHON program for socket for HTTP for web page upload and download
 
